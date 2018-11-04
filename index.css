@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: Constantine;
+    src: url('Constantine.woff') format('woff')
+}
+
+head {
+
+}
+#billboard {
+    background-color:    white;
+    color:              black;
+    letter-spacing: 30px;
+    font-size: 100px;
+    font-family: Constantine;
+    text-decoration: underline;
+}
+
+#tagline {
+    background-color: white;
+    color: black;
+    font-family: Constantine;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-right: 25px;
+    text-align: center;
+}
+
+li a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    background-color: white;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
